@@ -1,7 +1,7 @@
 import axios from "axios";
 import { ACCESS_TOKEN  } from "./constants";
 
-const apiUrl = "/django-react-tutorial/backend/v1"
+const apiUrl = "https://db4bfbd5-0ad4-4711-aac8-1a3f42a7678f-dev.e1-us-east-azure.choreoapis.dev/django-react-tutorial/backend/v1"
 
 const api = axios.create({
   baseURL: import.meta.env.VITE_API_URL ? import.meta.env.VITE_API_URL : apiUrl
